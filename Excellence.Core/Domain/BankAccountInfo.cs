@@ -12,7 +12,7 @@ namespace Excellence.Core.Domain
 
         [Required]
         [StringLength(20)]
-        //[RegularExpression("[]+")]
+        //[RegularExpression("[א-]+")]
         public string NameLocal { get; set; }
 
         [Required]
